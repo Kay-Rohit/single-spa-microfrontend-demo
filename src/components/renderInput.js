@@ -8,7 +8,7 @@ const FormInput = ({
     meta: {touched, error}
   }) => (
     <div>
-      <input
+      <input style={{width: '50%', height:"30px", margin: '10px'}}
         {...input}
         type={type}
         placeholder={placeHolder}

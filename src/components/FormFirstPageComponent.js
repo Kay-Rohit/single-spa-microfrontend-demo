@@ -17,7 +17,7 @@ const FormFirstPage = (props) => {
           <Field name="lastName" component = {Input} label='lastName' placeholder='enter your Last name' />
       </div>
       <div>
-        <button type="submit" className="next">Next</button>
+        <button type="submit" className="next" style={{margin:'10px', padding: "3px", color:'white', background:'#2b7de9'}}>Next</button>
       </div>
     </form>
   );

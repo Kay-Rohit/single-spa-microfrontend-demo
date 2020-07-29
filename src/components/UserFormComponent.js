@@ -29,11 +29,17 @@ class UserForm extends Component {
   render() {
     const { onSubmit } = this.props
     const { page } = this.state
-    return (<div>
-        {page === 1 && <FormFirstPage onSubmit={this.nextPage}/>}
-        {page === 2 && <FormSecondPage previousPage={this.previousPage} onSubmit={this.nextPage}/>}
-        {page === 3 && <FormThirdPage previousPage={this.previousPage} onSubmit={this.nextPage}/>}
-        {page === 4 && <Confirm previousPage={this.previousPage} onSubmit={onSubmit} />}
+    return (
+      <div style={{marginLeft: '300px', marginRight:'300px'}}>
+        <nav style={{background:'#76b6c8'}}>
+          <h2 style={{color:'white', padding: '10px'}}>Redux-Form</h2>
+        </nav>
+        <div>
+          {page === 1 && <FormFirstPage onSubmit={this.nextPage}/>}
+          {page === 2 && <FormSecondPage previousPage={this.previousPage} onSubmit={this.nextPage}/>}
+          {page === 3 && <FormThirdPage previousPage={this.previousPage} onSubmit={this.nextPage}/>}
+          {page === 4 && <Confirm previousPage={this.previousPage} onSubmit={onSubmit} />}
+        </div>
       </div>
     )
   }

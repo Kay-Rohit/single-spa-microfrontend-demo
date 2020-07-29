@@ -43,7 +43,7 @@ function Confirm(props) {
         </div>
         <div>
             <button type="button" className="previous" onClick={props.previousPage}>Previous</button>
-            <button type='submit'>Confirm and Submit</button>
+            <button type='submit' style={{margin:'10px', padding: "3px", color:'white', background:'#2b7de9'}}>Confirm and Submit</button>
         </div>
         </>
     );
