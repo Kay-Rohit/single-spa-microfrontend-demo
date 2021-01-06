@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "angular": "^1.8.0",
     "angular-ui-router": "^1.0.27",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "react": "^16.13.1",
     "react-animation-component": "^0.2.3",
     "react-animation-components": "^3.0.0",
